@@ -9,4 +9,14 @@
     <string name="not_have_account_yet">Ещё нет аккаунта?</string>
     <string name="password_hint">Введите ваш пароль</string>
     <string name="some_went_wrong">Что-то пошло не так! Попробуйте еще раз!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagine_password_hint">Придумайте ваш пароль</string>
+    <string name="password_confirm_hint">Повторите пароль</string>
+    <string name="nickname_hint">Придумайте ник найм</string>
+    <string name="email_hint">Введите ваш email</string>
+    <string name="next">Продолжить</string>
+    <string name="register_label">Введите ваши реальные данные (ник найм можно придумать)</string>
+    <string name="error_email">Введите корректный email</string>
+    <string name="confirm_password_error">Пароли не совпадают</string>
 </resources>

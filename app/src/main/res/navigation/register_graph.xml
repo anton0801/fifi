@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/register_graph"
+    app:startDestination="@id/registerNamesFragment">
+
+    <fragment
+        android:id="@+id/registerNamesFragment"
+        android:name="app.beer.fifi.ui.activities.auth.register.fragments.RegisterNamesFragment"
+        android:label="RegisterNamesFragment" >
+        <action
+            android:id="@+id/action_registerNamesFragment_to_registerSecondStepFragment"
+            app:destination="@id/registerSecondStepFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerSecondStepFragment"
+        android:name="app.beer.fifi.ui.activities.auth.register.fragments.RegisterSecondStepFragment"
+        android:label="RegisterSecondStepFragment" />
+</navigation>

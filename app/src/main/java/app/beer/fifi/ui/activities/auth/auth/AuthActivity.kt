@@ -12,6 +12,7 @@ import app.beer.fifi.MainActivity
 import app.beer.fifi.R
 import app.beer.fifi.databinding.ActivityAuthBinding
 import app.beer.fifi.models.auth.Auth
+import app.beer.fifi.ui.activities.auth.register.RegisterActivity
 import app.beer.fifi.ui.activities.splash.SplashActivity
 import app.beer.fifi.utils.Constants
 import app.beer.fifi.utils.Helper
@@ -39,6 +40,7 @@ class AuthActivity : AppCompatActivity() {
 
         binding.notHaveAccount.setOnClickListener {
             // start activity for registration with fragments
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
 
         binding.authBtn.setOnClickListener {
