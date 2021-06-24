@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">fifi</string>
+    <string name="google_api_key">AIzaSyDkYeaLWfwed3tcUAfFnExGMjsE6MHdxfk</string>
+
+    <string name="splash_text">Не полная версия! <br />Будет еще очень много всего нового</string>
+    <string name="login_input_hint">Введите ваш никнайм или email</string>
+    <string name="auth_label">Введите ваши данные для входа в ваш аккаунт</string>
+    <string name="auth">Войти</string>
+    <string name="not_have_account_yet">Ещё нет аккаунта?</string>
+    <string name="password_hint">Введите ваш пароль</string>
+    <string name="some_went_wrong">Что-то пошло не так! Попробуйте еще раз!</string>
+</resources>
